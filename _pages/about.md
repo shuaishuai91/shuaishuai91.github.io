@@ -23,18 +23,54 @@ My research examines how suspended inertial particles influence the dynamics of 
 
 ### Flow Stability Analysis
 
-I investigate how particle–fluid interactions can destabilize flows that would otherwise remain stable without particles. Combining linear stability analysis with Eulerian–Lagrangian simulations, I studied a particle-laden Rankine vortex and identified an instability driven by two-way momentum coupling. Even non-inertial particles can destabilize the vortex through a mechanism analogous to centrifugal Rayleigh–Taylor instability. Finite particle inertia further expands the range of unstable modes. The theoretical analysis provides criteria for instability and predictions of mode growth rates, which agree with numerical simulations. Beyond the linear stage, the instability develops into spiral structures in the particle concentration and vorticity fields.
+<style>
+.flow-stability-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  align-items: start;
+  column-gap: 1.5rem;
+  max-width: 750px;
+  margin: 1.2rem 0 1.5rem;
+}
+.flow-stability-layout figure {
+  margin: 0;
+  max-width: 350px;
+  min-width: 0;
+}
+.flow-stability-layout video {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.flow-stability-layout figcaption {
+  margin-top: 0.5rem;
+  color: #666;
+  font-size: 0.85em;
+  text-align: center;
+}
+.flow-stability-layout .stability-description p {
+  margin-top: 0;
+}
+@media (max-width: 700px) {
+  .flow-stability-layout {
+    grid-template-columns: minmax(0, 1fr);
+    row-gap: 1rem;
+  }
+}
+</style>
 
-{% assign stability_video = site.static_files | where: "path", "/files/stability.mp4" | first %}
-{% if stability_video %}
-<figure style="max-width: 700px; margin: 1.5em auto;">
-  <video controls playsinline preload="metadata" style="display: block; width: 100%; height: auto;" aria-label="Evolution of unstable azimuthal modes m equals 3 through 6">
-    <source src="{{ '/files/stability.mp4' | relative_url }}" type="video/mp4">
-    Your browser does not support HTML5 video.
-  </video>
-  <figcaption style="margin-top: 0.5em; color: #666; font-size: 0.9em; text-align: center;">Evolution of unstable azimuthal modes (m = 3–6) in a particle-laden vortex.</figcaption>
-</figure>
-{% endif %}
+<div class="flow-stability-layout">
+  <figure>
+    <video autoplay muted loop playsinline controls preload="metadata" aria-label="Evolution of unstable azimuthal modes m equals 3 through 6">
+      <source src="{{ '/files/stability.mp4' | relative_url }}" type="video/mp4">
+      Your browser does not support HTML5 video.
+    </video>
+    <figcaption>Evolution of unstable azimuthal modes (m = 3–6) in a particle-laden vortex.</figcaption>
+  </figure>
+  <div class="stability-description">
+    <p>I investigate how particle–fluid interactions can destabilize flows that would otherwise remain stable without particles. Combining linear stability analysis with Eulerian–Lagrangian simulations, I studied a particle-laden Rankine vortex and identified an instability driven by two-way momentum coupling. Even non-inertial particles can destabilize the vortex through a mechanism analogous to centrifugal Rayleigh–Taylor instability. Finite particle inertia further expands the range of unstable modes. The theoretical analysis provides criteria for instability and predictions of mode growth rates, which agree with numerical simulations. Beyond the linear stage, the instability develops into spiral structures in the particle concentration and vorticity fields.</p>
+  </div>
+</div>
 
 **Related publication:** [DOI: 10.1017/jfm.2022.687](https://doi.org/10.1017/jfm.2022.687)
 
