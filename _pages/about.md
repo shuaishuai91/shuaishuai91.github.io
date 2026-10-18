@@ -135,3 +135,46 @@ My research examines how suspended inertial particles influence the dynamics of 
 I apply numerical modeling to investigate inertial-particle transport and deposition in environmental flows, particularly dust transport in atmospheric boundary layers. Using large-eddy simulation (LES) coupled with a Lagrangian stochastic particle model, I examine how vegetation barriers modify turbulent flow structures and redistribute airborne particles. The simulations show that canopy-generated wakes can promote preferential concentration and downward transport, resulting in locally enhanced particle deposition downstream of the barrier. The enhancement becomes stronger with increasing particle inertia. This work provides physical insight into how vegetation-induced flow structures influence particle transport and ground deposition, with implications for the assessment of dust-control barriers.
 
 **Related manuscript (under review):** [Preprint](https://doi.org/10.21203/rs.3.rs-9164043/v1)
+
+### Preferential Orientation of Non-Spherical Inertial Particles in Atmospheric Turbulence
+
+<style>
+.non-spherical-video-block {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+  margin: 1.2rem 0 1.5rem;
+}
+.non-spherical-video-block figure {
+  margin: 0;
+  width: 100%;
+  max-width: 700px;
+}
+.non-spherical-video-block video {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.non-spherical-video-block figcaption {
+  color: #666;
+  font-size: 0.85em;
+  text-align: center;
+  margin-top: 0.4rem;
+}
+</style>
+
+<div class="non-spherical-video-block">
+  {% assign rotate_video = site.static_files | where: "path", "/files/rotate.mp4" | first %}
+  {% if rotate_video %}
+  <figure>
+    <video autoplay muted loop playsinline controls preload="metadata" aria-label="Preferential orientation of non-spherical inertial particles in atmospheric turbulence">
+      <source src="{{ '/files/rotate.mp4' | relative_url }}" type="video/mp4">
+      Your browser does not support HTML5 video.
+    </video>
+    <figcaption>Preferential orientation of non-spherical inertial particles in atmospheric turbulence.</figcaption>
+  </figure>
+  {% endif %}
+</div>
+
+My research examines how turbulence, particle inertia, and gravitational settling jointly influence the rotational dynamics and preferential orientation of non-spherical inertial particles in atmospheric flows. Using large-eddy simulation and Lagrangian particle modeling, I investigate how anisotropic turbulent motions modify particle alignment, orientation statistics, and residence time in the atmospheric boundary layer. This work aims to clarify the physical mechanisms that control orientation distributions of non-spherical particles and to improve the interpretation of polarization-based observations and remote sensing signals in particle-laden atmospheric environments.
