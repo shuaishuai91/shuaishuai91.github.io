@@ -127,7 +127,7 @@ My research examines how suspended inertial particles influence the dynamics of 
 
 {% assign canopy_image = site.static_files | where: "path", "/files/canopy.png" | first %}
 {% if canopy_image %}
-<figure style="margin: 1.2rem 0 1.5rem; max-width: 500px; width: 100%;">
+<figure style="margin: 1.2rem 0 1.5rem; max-width: 700px; width: 100%;">
   <img src="{{ '/files/canopy.png' | relative_url }}" alt="Vegetation canopy barrier and simulated atmospheric particle transport and deposition" style="display: block; width: 100%; height: auto;" loading="lazy">
 </figure>
 {% endif %}
