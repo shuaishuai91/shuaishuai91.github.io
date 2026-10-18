@@ -13,9 +13,9 @@ My research focuses on the dynamics of particle-laden flows, combining high-fide
 
 My broader research interests include computational fluid dynamics, multiphase flows, and geophysical and environmental fluid mechanics.
 
-## Research
+# Research
 
-### Particle-Laden Vortex Flow
+## Particle-Laden Vortex Flow
 
 <style>
 .particle-vortex-video-stack {
@@ -70,7 +70,7 @@ My research examines how suspended inertial particles influence the dynamics of 
 
 **Related publications:** [DOI: 10.1017/jfm.2022.50](https://doi.org/10.1017/jfm.2022.50) · [DOI: 10.1017/jfm.2024.67](https://doi.org/10.1017/jfm.2024.67)
 
-### Flow Stability Analysis
+## Flow Stability Analysis
 
 <style>
 .flow-stability-layout {
@@ -123,7 +123,7 @@ My research examines how suspended inertial particles influence the dynamics of 
 
 **Related publication:** [DOI: 10.1017/jfm.2022.687](https://doi.org/10.1017/jfm.2022.687)
 
-### Geophysical and Environmental Fluid Dynamics with Particle Transport
+## Geophysical and Environmental Fluid Dynamics with Particle Transport
 
 {% assign canopy_image = site.static_files | where: "path", "/files/canopy.png" | first %}
 {% if canopy_image %}
@@ -136,7 +136,7 @@ I apply numerical modeling to investigate inertial-particle transport and deposi
 
 **Related manuscript (under review):** [Preprint](https://doi.org/10.21203/rs.3.rs-9164043/v1)
 
-### Preferential Orientation of Non-Spherical Inertial Particles in Atmospheric Turbulence
+## Preferential Orientation of Non-Spherical Inertial Particles in Atmospheric Turbulence
 
 <style>
 .non-spherical-video-block {
