@@ -7,11 +7,9 @@ redirect_from:
   - /about.html
 ---
 
-I am a Postdoctoral Researcher in the School of Civil and Environmental Engineering at Cornell University, working with Professors Qi Li and John D. Albertson. I received my Ph.D. in Mechanical Engineering from Arizona State University in 2024, where I worked with Professor Mohamed Houssem Kasbaoui. Before that, I earned an M.S. in Mechanical Engineering from Washington University in St. Louis in 2017 and a B.S. in Mechanical Engineering from Shanghai Jiao Tong University in 2014.
+I am a Postdoctoral Researcher in the School of Civil and Environmental Engineering at Cornell University, working with Professors Qi Li. I received my Ph.D. in Mechanical Engineering from Arizona State University in 2024, where I worked with Professor Mohamed Houssem Kasbaoui. Before that, I earned an M.S. in Mechanical Engineering from Washington University in St. Louis in and a B.S. in Mechanical Engineering from Shanghai Jiao Tong University.
 
-My research focuses on the dynamics of particle-laden flows, combining high-fidelity numerical simulations and mathematical analysis to understand particle transport and particle–fluid interactions. During my Ph.D., I investigated how particle inertia and two-way coupling influence vortex dynamics and flow instability, leading to three first-author publications in *Journal of Fluid Mechanics*. At Cornell, I study inertial-particle transport and preferential deposition in atmospheric boundary-layer flows, as well as the rotational dynamics and preferential orientation of non-spherical particles under the effects of turbulence, inertia, and gravitational settling.
-
-My broader research interests include computational fluid dynamics, multiphase flows, and geophysical and environmental fluid mechanics.
+My research focuses on the dynamics of particle-laden flows, particularly how particle inertia and preferential concentration influence particle transport and how particle–fluid interactions modify the carrier flow. I am interested in particle-induced flow modulation, vortex dynamics, and flow instability, as well as particle transport, gravitational settling, and preferential deposition in turbulent flows. My research also includes the orientation and rotational dynamics of non-spherical particles in turbulence. Using mathematical analysis and high-fidelity numerical simulations, including DNS and LES, I aim to understand the underlying physical mechanisms and develop predictive models for particle-laden flows, with particular interest in geophysical and environmental applications.
 
 # Research
 
