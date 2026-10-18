@@ -125,6 +125,13 @@ My research examines how suspended inertial particles influence the dynamics of 
 
 ### Geophysical and Environmental Fluid Dynamics with Particle Transport
 
+{% assign canopy_image = site.static_files | where: "path", "/files/canopy.png" | first %}
+{% if canopy_image %}
+<figure style="margin: 1.2rem 0 1.5rem; max-width: 500px; width: 100%;">
+  <img src="{{ '/files/canopy.png' | relative_url }}" alt="Vegetation canopy barrier and simulated atmospheric particle transport and deposition" style="display: block; width: 100%; height: auto;" loading="lazy">
+</figure>
+{% endif %}
+
 I apply numerical modeling to investigate inertial-particle transport and deposition in environmental flows, particularly dust transport in atmospheric boundary layers. Using large-eddy simulation (LES) coupled with a Lagrangian stochastic particle model, I examine how vegetation barriers modify turbulent flow structures and redistribute airborne particles. The simulations show that canopy-generated wakes can promote preferential concentration and downward transport, resulting in locally enhanced particle deposition downstream of the barrier. The enhancement becomes stronger with increasing particle inertia. This work provides physical insight into how vegetation-induced flow structures influence particle transport and ground deposition, with implications for the assessment of dust-control barriers.
 
 **Related manuscript (under review):** [Preprint](https://doi.org/10.21203/rs.3.rs-9164043/v1)
