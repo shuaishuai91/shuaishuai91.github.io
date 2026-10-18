@@ -28,7 +28,7 @@ My broader research interests include computational fluid dynamics, multiphase f
 .particle-vortex-video-stack figure {
   margin: 0;
   width: 100%;
-  max-width: 350px;
+  max-width: 700px;
 }
 .particle-vortex-video-stack video {
   display: block;
