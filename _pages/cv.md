@@ -9,7 +9,7 @@ redirect_from:
 
 You can view or download my latest academic CV below.
 
-<p><a href="{{ '/files/CV.pdf' | relative_url }}" download><strong>Download CV (PDF)</strong></a></p>
+<p><a href="{{ '/files/CV.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer"><strong>View CV (PDF)</strong></a></p>
 
 <object data="{{ '/files/CV.pdf' | relative_url }}" type="application/pdf" width="100%" height="1000">
   <p>PDF preview is unavailable in this browser. <a href="{{ '/files/CV.pdf' | relative_url }}">Open CV (PDF)</a>.</p>
