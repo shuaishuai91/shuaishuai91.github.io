@@ -17,6 +17,55 @@ My broader research interests include computational fluid dynamics, multiphase f
 
 ### Particle-Laden Vortex Flow
 
+<style>
+.particle-vortex-video-stack {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+  margin: 1.2rem 0 1.5rem;
+}
+.particle-vortex-video-stack figure {
+  margin: 0;
+  width: 100%;
+  max-width: 350px;
+}
+.particle-vortex-video-stack video {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.particle-vortex-video-stack figcaption {
+  color: #666;
+  font-size: 0.85em;
+  text-align: center;
+  margin-top: 0.4rem;
+}
+</style>
+
+<div class="particle-vortex-video-stack">
+  {% assign evolution_video = site.static_files | where: "path", "/files/evolution.mp4" | first %}
+  {% if evolution_video %}
+  <figure>
+    <video autoplay muted loop playsinline controls preload="metadata" aria-label="Evolution of an inertial-particle-laden vortex">
+      <source src="{{ '/files/evolution.mp4' | relative_url }}" type="video/mp4">
+      Your browser does not support HTML5 video.
+    </video>
+    <figcaption>Evolution of an inertial-particle-laden vortex.</figcaption>
+  </figure>
+  {% endif %}
+  {% assign merger_video = site.static_files | where: "path", "/files/merger.mp4" | first %}
+  {% if merger_video %}
+  <figure>
+    <video autoplay muted loop playsinline controls preload="metadata" aria-label="Merger of co-rotating vortices in dusty flows">
+      <source src="{{ '/files/merger.mp4' | relative_url }}" type="video/mp4">
+      Your browser does not support HTML5 video.
+    </video>
+    <figcaption>Merger of co-rotating vortices in dusty flows.</figcaption>
+  </figure>
+  {% endif %}
+</div>
+
 My research examines how suspended inertial particles influence the dynamics of coherent vortices through preferential concentration and two-way momentum coupling. Using Eulerian–Lagrangian simulations, I showed that particles migrating outward from a Lamb–Oseen vortex form concentrated clusters and substantially accelerate vortex decay compared with viscous diffusion alone. In co-rotating vortex pairs, particle feedback can fundamentally change the merger process: particles with moderate inertia temporarily push the vortices apart to nearly twice their initial separation, whereas higher particle inertia can cause vortex-core stretching and splitting. I also use scaling analysis to identify the characteristic time scales governing particle redistribution and vortex evolution.
 
 **Related publications:** [DOI: 10.1017/jfm.2022.50](https://doi.org/10.1017/jfm.2022.50) · [DOI: 10.1017/jfm.2024.67](https://doi.org/10.1017/jfm.2024.67)
